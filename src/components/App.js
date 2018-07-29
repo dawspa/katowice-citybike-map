@@ -111,7 +111,8 @@ class App extends Component {
             var marker = new window.google.maps.Marker({
                 position: new window.google.maps.LatLng(station.lat, station.lng),
                 animation: window.google.maps.Animation.DROP,
-                map: map
+                map: map,
+                icon: "http://maps.google.com/mapfiles/ms/micons/cycling.png"
             });
 
             marker.addListener('click', function () {
