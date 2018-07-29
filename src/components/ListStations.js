@@ -56,6 +56,9 @@ class ListStations extends Component {
 
         return (
             <div className="search">
+              <div className="siteTitle">
+                  <a className="title" href="#">Katowice CityBike Map</a>
+              </div>
                 <input role="search" aria-labelledby="filter" id="search-field" className="search-field" type="text" placeholder="Search citybike station"
                        value={this.state.query} onChange={this.filterStations}/>
                 <ul>

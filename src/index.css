@@ -17,7 +17,7 @@ body {
 }
 
 ul {
-    background: white;
+    background-image: url(./listback.jpg);
     border: 1px solid darkgrey;
     overflow: auto;
     padding: 0px;
@@ -29,6 +29,8 @@ ul {
 .box {
     cursor: pointer;
     padding: 5px;
+    font-weight: 800;
+    color: white;
 }
 
 .box:hover {
@@ -39,7 +41,9 @@ ul {
 .button {
     text-align: center;
     padding: 5px;
-    background-color: white;
+    background-color: #002782;
+    color: white;
+    font-weight: 600;
     border: 1px darkgrey solid;
     cursor: pointer;
     width: 334px;
